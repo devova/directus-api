@@ -1,0 +1,9 @@
+server:
+  host: localhost
+  port: 8007
+upstream:
+  url: http://localhost:7000/
+hydra:
+  run:
+    # Output directory for normal runs
+    dir: /tmp/outputs/${now:%Y-%m-%d_%H-%M-%S}
