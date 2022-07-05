@@ -1,5 +1,5 @@
 fastapi==0.42.0
-ujson==1.35
+ujson==5.4.0
 uvicorn==0.10.3
 hydra-core==0.10.0
 httpx==0.7.6
